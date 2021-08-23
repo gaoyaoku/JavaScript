@@ -480,7 +480,7 @@ function Env(name, opts) {
       const endTime = new Date().getTime()
       const costTime = (endTime - this.startTime) / 1000
       this.log('', `🔔${this.name}, 结束!`)
-      this.log('', `⏱${this.name},  ${costTime} 秒!`)
+      this.log('', `⏱${this.name}, ${costTime} 秒!`)
       if (this.isSurge() || this.isQuanX() || this.isLoon()) {
         $done(val)
       }
