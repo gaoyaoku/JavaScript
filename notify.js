@@ -67,7 +67,7 @@ let IGOT_PUSH_KEY = '';
 */
 //官方文档：http://www.pushplus.plus
 //微信扫码登录后一对一推送或一对多推送的Token(你的Token)
-let PUSH_PLUS_TOKEN = '*****4a2c73e47d78a8475500e2*****';
+let PUSH_PLUS_TOKEN = '';
 //不提供PUSH_PLUS_USER则默认为一对一推送.一对多推送的“群组编码”（一对多推送下面->您的群组->群组编码.如果你是群组创建人,也需点击“查看二维码”扫描绑定，否则不能接受群组消息推送）
 let PUSH_PLUS_USER = '';
 

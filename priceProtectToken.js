@@ -489,7 +489,7 @@ function Env(name, opts) {
                 }
             }
             if (!this.isMuteLog) {
-                let logs = ['', '📣${this.name}, 通知!']
+                let logs = ['', `📣${this.name}, 通知!`]
                 logs.push(title)
                 subt ? logs.push(subt) : ''
                 desc ? logs.push(desc) : ''

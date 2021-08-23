@@ -16,7 +16,7 @@ https:\/\/api\.m.jd.com\/api\?appid=siteppM&functionId=siteppM_priceskusPull url
 const $ = new Env('京东价格保护');
 
 const notify = $.isNode() ? require('./notify').sendNotify : '';
-const cookies = $.isNode() ? require("./cookies").cookies : cookies = [$.getdata('CookieJD'), $.getdata('CookieJD2'), ...jsonParse($.getdata('CookiesJD') || "[]").map(item => item.cookie)].filter(item => !!item);
+const cookies = $.isNode() ? require("./cookie").cookies : cookies = [$.getdata('CookieJD'), $.getdata('CookieJD2'), ...jsonParse($.getdata('CookiesJD') || "[]").map(item => item.cookie)].filter(item => !!item);
 
 const unifiedGatewayName = 'https://api.m.jd.com';
 //多个jd_tokens以@分隔
