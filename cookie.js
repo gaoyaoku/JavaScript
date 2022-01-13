@@ -1,6 +1,4 @@
-let cookies = [
-    '',
-]
+let cookies = []
 
 if (process.env.JD_COOKIE) {
     if (process.env.JD_COOKIE.indexOf('&') > -1) {
