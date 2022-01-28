@@ -1,6 +1,6 @@
 /*
 
-^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) url script-request-header getCookie.js
+^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) url script-request-header https://raw.githubusercontent.com/gaoyaoku/JavaScript/master/getCookie.js
 
 hostname = me-api.jd.com, api.m.jd.com
 
@@ -27,4 +27,4 @@ ${pt_key + pt_pin}
         $notify('获取cookie失败！')
     }
 }
-$done()
+$done({})
