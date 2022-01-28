@@ -1,8 +1,8 @@
 /*
 
-^https:\/\/(api\.m|me-api)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?) url script-request-header https://raw.githubusercontent.com/gaoyaoku/JavaScript/master/getCookie.js
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=GetJDUserInfoUnion url script-request-header https://raw.githubusercontent.com/gaoyaoku/JavaScript/master/getCookie.js
 
-hostname = me-api.jd.com, api.m.jd.com
+hostname = api.m.jd.com
 
 */
 
