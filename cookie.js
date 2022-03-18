@@ -11,7 +11,6 @@ if (process.env.JD_COOKIE) {
 }
 
 cookies = cookies.map(cookie => cookie.trim());
-console.log(`🛎️共${cookies.length}个京东账号Cookie！`);
 
 module.exports = {
     cookies
